@@ -25,6 +25,13 @@
     "isDraft": {
       "boolean": {}
     },
+    
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
+  },
     "createdAt": {
       "dateTime": {
         "min": "2010-01-01T00:00:00Z",
