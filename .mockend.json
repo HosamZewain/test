@@ -1,17 +1,17 @@
 {
   "Post": {
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/500/500"
+    "image": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/500.jpg"
     },
     "title": {
       "loremWords": {
-        "minLength": 5,
+        "minLength": 10,
         "maxLength": 20
       }
     },
     "body": {
       "loremParagraphs": {
-        "minLength": 10,
+        "minLength": 20,
         "maxLength": 100
       }
     },
